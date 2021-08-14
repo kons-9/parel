@@ -1,0 +1,21 @@
+{
+    "name": "parel",
+    "displayName": "parel",
+    "description": "inspired by Het meisje met de parel.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "kons",
+                "uiTheme": "vs-dark",
+                "path": "./themes/kons-color-theme.json"
+            }
+        ]
+    }
+}
