@@ -7,10 +7,20 @@
 		"editor.foreground": "#fdfdfc",
 		// "editor.foreground": "#fa0000",
 
-		"activityBarBadge.background": "#0F456D",
-		"sideBarTitle.foreground": "#FFF2C7"
+		"sideBarTitle.foreground": "#FFF2C7",
+
+        "statusBar.background": "#6C582D",
+        "statusBar.foreground": "#FFFAEB",
+
+        "activityBar.background":"#2B2312",
+        "activityBar.foreground": "#E1D3B7",
+        "activityBarBadge.background": "#6C582D",
+        "activityBarBadge.foreground": "#F3EDE2",
+
+        "editorCursor.foreground":"#C7B080",
+        "terminalCursor.foreground":"#C7B080",
+
 	},
-    // comment
 	"tokenColors": [
 		{
 			"name": "Comment",
@@ -20,7 +30,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#015697"
+				"foreground": "#517D87"
 			}
 		},
 		{
@@ -207,7 +217,7 @@
                 "meta.import",
             ],
             "settings": {
-				"foreground": "#FB861A"
+				"foreground": "#AD8C48"
             }
 
         },
@@ -260,27 +270,20 @@
 		{
 			"name": "JSON Key",
 			"scope": [
-				"source.json meta.structure.dictionary.json support.type.property-name.json"
+				"source.json meta.structure.dictionary.json support.type.property-name.json",
+                "punctuation.support.type.property-name",
 			],
 			"settings": {
-				"foreground": "#FFDA7D"
+				// "foreground": "#FFDA7D"
+                "foreground": "#FFC233",
 			}
 		},
         {
-            "name": "JSON \"",
-            "scope":[
-                "punctuation.support.type.property-name",
-
-            ],
-            "settings": {
-                "foreground": "#B2A972",
-            }
-
-        },
-        {
             "name": "JSON comment",
             "scope":[
-                "string.quoted.double.json.comments"
+                "string.quoted.double.json.comments",
+                "punctuation.definition.string.end.json.comments",
+                "punctuation.definition.string.begin.json.comments",
             ]
             ,"settings": {
                 "foreground": "#79A7C8",
