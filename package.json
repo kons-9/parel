@@ -7,8 +7,16 @@
     "engines": {
         "vscode": "^1.59.0"
     },
+    "icon": "parel.png",
     "categories": [
         "Themes"
+    ],
+    "bugs": {
+        "url": "https://github.com/kons-9/parel/issues"
+    },
+    "keywords": [
+        "theme",
+        "color-theme"
     ],
     "repository": {
         "type": "git",
