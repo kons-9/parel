@@ -43,6 +43,7 @@
         {
             "scope":[
                 "string.quoted.other.lt-gt.include.cpp",
+                "meta.attribute.rust",
             ]
             ,"settings": {
                 "foreground": "#B2A972",
@@ -83,6 +84,8 @@
                 "punctuation.separator",
                 "punctuation.definition",
                 "punctuation.section",
+                "punctuation.brackets",
+                "punctuation.semi",
                 "keyword.operator"
             ],
             "settings": {
@@ -185,6 +188,7 @@
         {
             "scope":[
                 "keyword.other",
+                "entity.name.namespace",
             ],
             "settings": {
 				"foreground": "#FB861A"
@@ -226,6 +230,16 @@
                 "fontStyle": "underline bold"
 			}
 		},
+		{
+			"name": "Language methods",
+			"scope": [
+				"variable.language"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#FFC233"
+			}
+		},
 
         //////////////// 
         // not implemented
@@ -261,16 +275,6 @@
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#FF5370"
-			}
-		},
-		{
-			"name": "Language methods",
-			"scope": [
-				"variable.language"
-			],
-			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#FF5370"
 			}
 		},
