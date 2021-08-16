@@ -21,7 +21,7 @@
         "terminalCursor.foreground":"#C7B080",
 
 	},
-	"tokenColors": [
+	"tokenColors":[
 		{
 			"name": "Comment",
 			"scope": [
@@ -281,6 +281,8 @@
         {
             "name": "JSON comment",
             "scope":[
+                "punctuation.definition.string.begin.json",
+                "string.quoted.double.json",
                 "string.quoted.double.json.comments",
                 "punctuation.definition.string.end.json.comments",
                 "punctuation.definition.string.begin.json.comments",
