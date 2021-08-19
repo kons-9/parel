@@ -100,7 +100,8 @@
                 "punctuation.section",
                 "punctuation.brackets",
                 "punctuation.semi",
-                "keyword.operator"
+                "keyword.operator",
+				"entity.name.function.operator.member",// cにおいて多重配列の大括弧
             ],
             "settings": {
                 "foreground": "#D4D4D4",
@@ -140,7 +141,8 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#FFC233"
+				"foreground": "#F8C54C",
+				// "foreground": "#F8C54C"
 			}
 		},
 		{
@@ -235,7 +237,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFC233"
+				"foreground": "#F8C54C"
 			}
 		},
 		{
@@ -264,7 +266,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FFC233"
+				"foreground": "#F8C54C"
 			}
 		},
 		{
@@ -275,7 +277,7 @@
 			],
 			"settings": {
 				// "foreground": "#FFDA7D"
-                "foreground": "#FFC233",
+                "foreground": "#F8C54C",
 			}
 		},
         {
@@ -308,7 +310,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#FFC233"
+				"foreground": "#F8C54C"
 			}
 		},
 
